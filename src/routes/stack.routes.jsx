@@ -9,6 +9,6 @@ const StackRoutes = () => {
         <Stack.Screen name="Home" component={Home}/>
     </Stack.Navigator>
     );
-};
+}
 
 export default StackRoutes;

@@ -9,6 +9,6 @@ const Routes = () => {
             <StackRoutes/>
         </NavigationContainer>
     );
-};
+}
 
 export default Routes;
