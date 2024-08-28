@@ -7,8 +7,14 @@ export default function Home() {
   return (
     <View style={styles.container}>
       <Title title="Home" />
-      <MyButton screen={'Totoro'} name={'Go to Totoro'} />
-      <MyButton screen={'Ghibli'} name={'Go to Ghibli'} />
+
+      <Text>Olá, somos Ana júlia e isabela alcantara, nós duas temos 18 anos e fazemos o mesmo curso do senai (DS), amamos música e assistir crepúsculo no frio,
+        somos duas formigas que ama doce, amamos cachorro quente e ficar sem fazer sempre que possivel. </Text>
+      <Text> filmes favoritos (Ana): Crepúsculo</Text>
+      <Text> filmes favoritos (isa): Enrolados </Text>
+
+      <MyButton screen={'Totoro'} name={'Crepúsculo'} />
+      <MyButton screen={'Ghibli'} name={'Enrolados'} />
     </View>
   )
 }
