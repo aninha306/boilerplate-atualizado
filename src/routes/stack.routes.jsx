@@ -9,8 +9,8 @@ const StackRoutes = () => {
     return (
     <Stack.Navigator>
         <Stack.Screen name="Home" component={Home}/>
-        <Stack.Screen name="Totoro" component={Totoro}/>
-        <Stack.Screen name="Ghibli" component={Ghibli}   />
+        <Stack.Screen name="Ana" component={Totoro}/>
+        <Stack.Screen name="Isa" component={Ghibli}   />
          </Stack.Navigator>
     );
 }
